@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>capacité de teemo</title>
+    </head>
+    <body>
+        <center><h3><font color="orange">Les capacités de Teemo</font></h3></center>
+             
+<div>
+  <p style="color:cyan;">Guérilla
+Si Teemo reste immobile et sans agir pendant un court instant, il devient invisible indéfiniment. Dans les herbes hautes, Teemo peut activer et maintenir son invisibilité tout en se déplaçant. Quand il quitte son invisibilité, Teemo profite de l'Effet de surprise, augmentant sa vitesse d'attaque pendant 3 sec.</p>
+</div>
+</n>
+<div>
+<p style="color:orange;">Fléchette aveuglante
+Coût: 70/75/80/85/90 Mana
+Portée: 680
+
+Un puissant venin obscurcit la vue de l'ennemi, infligeant des dégâts à la cible et l'aveuglant pendant la durée de l'effet.
+
+Inflige {{ calculateddamage }} pts de dégâts magiques et aveugle la cible pendant {{ blindduration }} sec.</p>
+</div>
+</n>
+  <div>
+      <p style="color:cyan;">>Vélocité
+Coût: 40 Mana
+Portée: 20
+
+La vitesse de déplacement de Teemo est passivement augmentée jusqu'à ce qu'il soit frappé par un champion ennemi ou une tourelle ennemie. Teemo peut sprinter pour gagner un bonus temporaire en vitesse de déplacement qui n'est pas annulé si Teemo est touché.
+
+Passive : la vitesse de déplacement de Teemo est augmentée de {{ passivemsbonus*100 }}%, sauf s'il a été blessé par un champion ennemi ou une tourelle ennemie il y a moins de 5 sec.
+Active : Teemo sprinte, doublant son bonus passif pendant {{ msbuffduration }} sec. Les dégâts ne dissipent pas ce bonus.</p>
+  </div>
+
+<div>
+    <p style="color:orange;">Tir toxique
+Coût: 0 Mana
+Portée: 680
+
+Toutes les attaques de Teemo empoisonnent la cible, infligeant des dégâts à l'impact puis chaque seconde pendant 4 secondes.
+
+Les attaques de base de Teemo empoisonnent ses cibles, infligeant {{ impactcalculateddamage }} pts de dégâts magiques à l'impact, puis {{ tickcalculateddamage }} pts de dégâts magiques chaque seconde pendant {{ poisonduration }} sec.</p>
+
+</div>
+
+<div>
+
+    <p style="color:cyan;">Piège nocif
+Coût: 75 Mana
+Portée: 400/650/900
+
+Teemo se sert d'un des champignons stockés dans son sac à dos pour lancer un piège explosif. Si un ennemi marche sur le piège, un nuage empoisonné s'en échappe, ralentit les ennemis et leur inflige des dégâts sur la durée. Les champignons lancés sur d'autres champignons rebondissent et ont ainsi une plus grande portée.
+
+Utilise un champignon stocké pour lancer un piège. Si un ennemi marche dessus, le piège explose et empoisonne tous les ennemis proches, réduisant leur vitesse de déplacement de [{{ slowamount }}]%, les révélant et leur infligeant {{ totaldamage }} pts de dégâts magiques en {{ debuffduration }} sec. Les pièges durent {{ mushroomduration }} minutes et il leur faut {{ armtime }} sec pour s'amorcer et se camoufler. Teemo peut stocker jusqu'à {{ maxammo }} pièges à la fois. Si un piège atterrit sur un autre piège, il rebondit jusqu'à {{ bouncedistance }} Teemo plus loin avant de se planter dans le sol.</p>
+  </div>    
+  </body>
+    <body background="https://images4.alphacoders.com/600/thumb-1920-600528.png"></body>
+</html>
